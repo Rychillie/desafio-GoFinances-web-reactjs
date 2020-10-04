@@ -17,7 +17,7 @@ Neste desafio eu apliquei um pouco dos conhecimentos de ReactJS que obtive no Bo
 
 # 🔧 Como testar o Projeto:
 
-- Primeiro, rode a (API deste projeto)[https://github.com/Rychillie/desafio-typeorm-upload-nodejs].
+- Primeiro, rode a [API deste projeto](https://github.com/Rychillie/desafio-typeorm-upload-nodejs).
 - Com a API rodando, clone este repositório no seu computador
 - Com o projeto aberto você deve rodar os seguintes comandos em seu terminal para instalar as dependencias:
 
