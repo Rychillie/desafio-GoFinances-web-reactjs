@@ -17,50 +17,25 @@ Neste desafio eu apliquei um pouco dos conhecimentos de ReactJS que obtive no Bo
 
 # 🔧 Como testar o Projeto:
 
-- Clone este repositório no seu computador
+- Primeiro, rode a (API deste projeto)[https://github.com/Rychillie/desafio-typeorm-upload-nodejs].
+- Com a API rodando, clone este repositório no seu computador
 - Com o projeto aberto você deve rodar os seguintes comandos em seu terminal para instalar as dependencias:
 
 ```shell
     yarn install / npm install
 ```
 
-- Para iniciar a API você deve realizar o seguinte comando:
-
-```shell
-    yarn dev:server / npm run dev:server
-```
-
-- Para realizar testes na API:
+- Para realizar testes do projeto:
 
 ```shell
     yarn test / npm run test
 ```
 
-# 🛣️ Rotas para testar a API:
+- Logo após você pode executar o projeto com o seguinte comando:
 
-- **`POST - /transactions`** : Cria uma transação.
-
-Para criar um recebimento:
-
-```json
-{
-  "title": "Salario",
-  "value": 1000,
-  "type": "income"
-}
+```shell
+    yarn start / npm run start
 ```
-
-Para criar uma retirada:
-
-```json
-{
-  "title": "Patinete",
-  "value": 499,
-  "type": "outcome"
-}
-```
-
-- **`GET - /transactions`** : Retorna todas transações.
 
 ---
 
